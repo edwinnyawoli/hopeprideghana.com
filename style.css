@@ -1,0 +1,56 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    /* background-color: burlywood; */
+}
+
+.nav-header {
+    /* position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%; */
+}
+
+.navbar-brand, .navbar-menu {
+    background-color: rgb(227, 226, 207);
+}
+
+.nav-header-offset {
+    /* padding-top: 60px; */
+}
+
+section {
+    height: 100%;
+}
+
+section:nth-child(even) {
+    /* background-color: rgb(243, 243, 243); */
+    background-color: rgb(227, 226, 207);
+}
+
+.hero {
+    white-space: nowrap;
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: space-around;
+    height: calc(100% - 60px);
+}
+
+.hero aside {
+    padding: 3rem;
+}
+
+.hero .title {
+    font-size: 46pt;
+    font-weight: bold;
+}
+
+.hero aside:first-child > * {
+    margin-bottom: 2.5rem;
+}
