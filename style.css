@@ -53,6 +53,46 @@ section:nth-child(even) {
 
 .hero aside:first-child > * {
     margin-bottom: 2.5rem;
+
+aside > address {
+    padding: 1vh 3vw 1vh !important;
+    height: 22vh;
+    text-align: center;
+    background-color: rgb(233, 233, 217);
+    display: flex !important;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+aside > address > .icon {
+    font-size: 20pt;
+    color: rgb(105, 174, 170);
+    width: 64px;
+    height: 64px;
+    margin-right: 16px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+aside > address > .details {
+    text-align: start;
+    color: rgb(146, 136, 112);
+    font-style: normal;
+}
+
+aside > address > .details *:last-child {
+    font-weight: 600;
+    color: rgb(72, 49, 29);
+}
+
+aside > address:nth-child(2) {
+    background-color: rgb(226, 224, 203);
+}
+
+aside > address:nth-child(3) {
+    background-color: rgb(201, 199, 173);
+}
+
 footer {
     height: max(40vh, auto);
     background-color: rgb(195, 140, 97);
