@@ -10,6 +10,16 @@ body {
     /* background-color: burlywood; */
 }
 
+button.is-orange {
+    background-color: rgb(236, 177, 42);
+    border-color:rgb(236, 177, 42);
+    color: white;
+}
+
+.no-margin {
+    margin: 0 !important;
+}
+
 .nav-header {
     /* position: absolute;
     left: 0;
@@ -53,6 +63,47 @@ section:nth-child(even) {
 
 .hero aside:first-child > * {
     margin-bottom: 2.5rem;
+
+aside.donation {
+    height: 35vh;
+    background-image: url('img/donation.svg');
+    background-repeat: no-repeat;
+    /* background-color: rgb(195, 140, 97); */
+    align-content: space-around;
+    align-items: center;
+    padding-left: 6vw;
+    padding-right: 6vw;
+}
+
+aside.donation h2 {
+    color: white;
+    font-size: min(36pt, 8vw);
+    font-weight: bold;
+    line-height: 1em;
+    margin-bottom: .4em;
+}
+
+aside.donation .buttons {
+    text-align: end;
+}
+
+aside.donation button:not(:first-child) {
+    margin-left: 1vw;
+}
+
+@media only screen and (max-width: 420px) {
+    aside.donation .buttons {
+        text-align: start;
+    }
+
+    aside.donation button {
+        font-size: .75rem;
+    }
+}
+
+aside.donation p{
+    color: rgb(221, 219, 215);
+}
 
 aside > address {
     padding: 1vh 3vw 1vh !important;
