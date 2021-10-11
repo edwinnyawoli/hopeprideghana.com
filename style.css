@@ -64,6 +64,41 @@ section:nth-child(even) {
 .hero aside:first-child > * {
     margin-bottom: 2.5rem;
 
+.features {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 16px;
+    padding: 16px 10vw;
+}
+
+@media only screen and (max-width: 760px) {
+    .features {
+        grid-template-columns: 100%;
+    }
+}
+
+.feature-card {
+    padding: 28px 36px;
+    background-color: rgb(242, 242, 231);
+    border-radius: 8px;
+    color: rgb(164, 152, 138);
+}
+
+.feature-card > h2 {
+    font-weight: bold;
+    color: rgb(47, 21, 2);
+    border-bottom: 2px solid rgb(226, 225, 211);
+    margin-bottom: 16px;
+}
+
+.feature-card > h2 > i {
+    color: rgb(208, 157, 116);
+    font-size: 24pt;
+    margin-right: 16px;
+    padding-bottom: 16px;
+    border-bottom: 2px solid rgb(43, 43, 43);
+}
+
 aside.donation {
     height: 35vh;
     background-image: url('img/donation.svg');
