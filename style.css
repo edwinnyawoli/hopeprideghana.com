@@ -91,7 +91,7 @@ section > button:last-child {
 }
 
 .hero {
-    flex-direction: row !important;
+    flex-direction: row;
     align-items: center;
     justify-content: space-around;
     height: calc(100% - 60px);
@@ -110,10 +110,10 @@ section > button:last-child {
 }
 
 @media only screen and (max-width: 420px) {
-    .hero {
+    section.hero {
         justify-content: center;
         background-image: none;
-        flex-direction: column;
+        flex-direction: column-reverse;
         text-align: center;
     }
 
@@ -126,7 +126,7 @@ section > button:last-child {
     }
 
     .hero aside:nth-child(2) {
-        display: none;
+        width: 65%;
     }
  }
 
@@ -136,6 +136,7 @@ section > button:last-child {
 
 .hero-img {
     border-radius: 50%;
+    width: 480px;
 }
 
 div.features {
