@@ -117,6 +117,10 @@ section > button:last-child {
         text-align: center;
     }
 
+    br {
+        display: none;
+    }
+
     .hero .title { 
        font-size: 2em; 
     }
