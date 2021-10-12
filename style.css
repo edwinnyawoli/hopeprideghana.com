@@ -92,10 +92,13 @@ section > button:last-child {
     align-items: center;
     justify-content: space-around;
     height: calc(100% - 60px);
+    background-image: url('img/blob.svg');
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 .hero aside {
-    padding: 3rem;
+    padding: 3vw;
 }
 
 .hero .title {
