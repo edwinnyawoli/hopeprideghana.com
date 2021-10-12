@@ -142,7 +142,7 @@ aside.donation {
     height: 35vh;
     background-image: url('img/donation.svg');
     background-repeat: no-repeat;
-    /* background-color: rgb(195, 140, 97); */
+    background-color: rgb(195, 140, 97);
     align-content: space-around;
     align-items: center;
     padding-left: 6vw;
