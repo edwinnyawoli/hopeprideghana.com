@@ -175,6 +175,62 @@ div.features {
     border-bottom: 2px solid rgb(43, 43, 43);
 }
 
+section.causes {
+    background-color: white;
+}
+
+section.causes ul.columns {
+    justify-content: center;
+}
+
+section.causes ul.columns > .column {
+    flex-grow: 0;
+}
+
+section.causes article.card {
+    border-radius: .7rem !important;
+    overflow: hidden;
+    box-shadow: none;
+    min-width: 280px;
+    margin: 0 auto;
+    max-width: 320px;
+    background-color: rgb(242, 242, 231);
+}
+
+section.causes article.card div.amounts {
+    margin: 20px 0;
+    white-space: nowrap;
+}
+
+section.causes article.card div.amounts span {
+    display: inline-block;
+    margin: 0;
+    width: 50%;
+}
+
+section.causes article.card div.amounts span.goal {
+    text-align: end;
+    color: rgb(171, 162, 148);
+}
+
+section.causes article.card progress {
+    height: .5rem;
+    margin: 24px 0 32px;
+}
+
+section.causes article.card progress::-webkit-progress-bar {
+    background: rgb(229, 227, 213);
+}
+
+section.causes article.card progress::-webkit-progress-value {
+    background: rgb(105, 174, 170);
+}
+
+section.causes article.card button {
+    background-color: rgb(129, 136, 181);
+    font-size: 1rem;
+}
+
 aside.donation {
     height: 35vh;
     background-image: url('img/donation.svg');
