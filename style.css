@@ -197,6 +197,20 @@ div.volunteer.card {
     border-radius: .7rem !important;
 }
 
+div.volunteer.card > .card-image img {
+    margin: 0 auto;
+    padding: 16px 16px 0;
+    width: auto;
+}
+
+div.volunteer.card > .card-image {
+    background-color: rgb(103, 171, 167);
+}
+
+section.volunteers .columns .column:nth-child(even) .card-image {
+    background-color: rgb(208, 157, 116);
+}
+
 aside > address {
     padding: 1vh 3vw 1vh !important;
     height: 22vh;
