@@ -227,6 +227,7 @@ section.volunteers ol {
 }
 
 div.volunteer.card {
+    box-shadow: none;
     min-width: 230px;
     max-width: 250px;
     margin: auto;
