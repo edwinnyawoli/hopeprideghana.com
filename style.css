@@ -35,6 +35,17 @@ button.is-orange {
     /* padding-top: 60px; */
 }
 
+.hr {
+    border-bottom: 1px solid #EEE;
+    font-size: 2pt;
+    margin: 12px 0;
+}
+
+.hr::before {
+    content: 'ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ';
+    border-bottom: 2px solid black;
+}
+
 section {
     min-height: 100%;
     padding: 6vh 3vw 6vh;
@@ -166,6 +177,25 @@ aside.donation button:not(:first-child) {
 
 aside.donation p{
     color: rgb(221, 219, 215);
+}
+
+section.volunteers {
+    min-height: auto;
+    padding-left: 8vw;
+    padding-right: 8vw;
+}
+
+section.volunteers ol {
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+div.volunteer.card {
+    min-width: 230px;
+    max-width: 250px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: .7rem !important;
 }
 
 aside > address {
