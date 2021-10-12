@@ -10,6 +10,11 @@ body {
     /* background-color: burlywood; */
 }
 
+button {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
 button.is-orange {
     background-color: rgb(236, 177, 42);
     border-color:rgb(236, 177, 42);
@@ -80,8 +85,6 @@ section h1 {
 section > button:last-child {
     display: block;
     margin: 2vh auto;
-    text-transform: uppercase;
-    font-weight: 600;
     color: rgb(123, 131, 179);
     border: 1px solid rgb(123, 131, 179);
     background-color: #0000;
