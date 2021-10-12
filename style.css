@@ -106,15 +106,21 @@ section > button:last-child {
 .hero aside:first-child > * {
     margin-bottom: 2.5rem;
 
-.features {
+div.features {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-gap: 16px;
     padding: 16px 10vw;
+
+@media only screen and (min-width: 760px) {
+    section.features > h1 {
+        padding-left: 15vw;
+        padding-right: 15vw;
+    }
 }
 
 @media only screen and (max-width: 760px) {
-    .features {
+    div.features {
         grid-template-columns: 100%;
     }
 }
