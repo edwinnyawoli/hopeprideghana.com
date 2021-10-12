@@ -68,9 +68,12 @@ section h6 {
 section h1 {
     text-align: center;
     font-weight: bold;
-    font-size: 22pt;
-    padding-left: 23vw;
-    padding-right: 23vw;
+    font-size: min(7vw, 26pt);
+    color: rgb(54, 30, 1);
+    padding-left: 3vw;
+    padding-right: 3vw;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 6vh;
 }
 
