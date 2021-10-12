@@ -114,6 +114,7 @@ section > button:last-child {
         justify-content: center;
         background-image: none;
         flex-direction: column;
+        text-align: center;
     }
 
     .hero .title { 
