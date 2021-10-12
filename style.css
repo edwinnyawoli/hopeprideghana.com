@@ -106,8 +106,25 @@ section > button:last-child {
     font-weight: bold;
 }
 
+@media only screen and (max-width: 420px) {
+    .hero {
+        justify-content: center;
+        background-image: none;
+        flex-direction: column;
+    }
+
+    .hero .title { 
+       font-size: 2em; 
+    }
+
+    .hero aside:nth-child(2) {
+        display: none;
+    }
+ }
+
 .hero aside:first-child > * {
     margin-bottom: 2.5rem;
+}
 
 .hero-img {
     border-radius: 50%;
