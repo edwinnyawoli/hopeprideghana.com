@@ -204,9 +204,10 @@
             <h2>Make A Donation</h2>
             <p>Contribute to help make the lives of people better</p>
         </div>
-        <div class="buttons column">
-            <button class="button is-rounded is-outlined">Contact Us</button>
-            <button class="button is-orange is-rounded">Make a donation</button>
+        <form class="buttons column">
+            <button type="submit" class="button is-rounded is-outlined" formaction="#contacts">Contact Us</button>
+            <button class="donation button is-orange is-rounded" formaction="#donations">Make a donation</button>
+        </form>
         </div>
     </aside>
 
@@ -346,7 +347,7 @@
     </section>
 
     <!-- Contact details aside -->
-    <aside class="contacts columns no-margin">
+    <aside id="contacts" class="contacts columns no-margin">
         <address class="column">
             <div class="icon">
                 <i class="fas fa-phone"></i>
