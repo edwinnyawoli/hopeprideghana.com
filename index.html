@@ -84,7 +84,7 @@
         <aside class="">
             <p class="title">Reaching out<br> to those who<br> need it</p>
             <p class="subtitle">To improve the livelihood of the marginalized in society</p>
-            <button class="button is-info is-rounded is-medium">Make a donation</button>
+            <button class="donation button is-info is-rounded is-medium">Make a donation</button>
         </aside>
         <aside>
             <img src="img/hero.JPG" class="hero-img" alt="" alt="Hero Image">
@@ -199,7 +199,7 @@
     </section>
 
     <!-- Make a donation aside -->
-    <aside class="donation columns no-margin">
+    <aside id="donations" class="donation columns no-margin">
         <div class="column">
             <h2>Make A Donation</h2>
             <p>Contribute to help make the lives of people better</p>
@@ -208,6 +208,14 @@
             <button type="submit" class="button is-rounded is-outlined" formaction="#contacts">Contact Us</button>
             <button class="donation button is-orange is-rounded" formaction="#donations">Make a donation</button>
         </form>
+        <div class="modal">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+                <p class="image">
+                    <img src="img/donate_momo.jpg" alt="">
+                </p>
+            </div>
+            <button class="modal-close is-large" aria-label="close"></button>
         </div>
     </aside>
 
@@ -410,5 +418,14 @@
         </div>
     </footer>
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    $(".donation.button, #donations .modal-background, button.modal-close").click(function () {
+        $("#donations > .modal").toggleClass("is-active");
+        $("html").toggleClass("is-clipped");
+    });
+</script>
 
 </html>
