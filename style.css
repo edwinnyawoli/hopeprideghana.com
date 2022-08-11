@@ -7,9 +7,6 @@ body, html {
     scroll-behavior: smooth;
 }
 
-body {
-    /* background-color: burlywood; */
-}
 
 button {
     text-transform: uppercase;
@@ -26,19 +23,9 @@ button.is-orange {
     margin: 0 !important;
 }
 
-.nav-header {
-    /* position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%; */
-}
 
 .navbar-brand, .navbar-menu {
     background-color: rgb(227, 226, 207);
-}
-
-.nav-header-offset {
-    /* padding-top: 60px; */
 }
 
 .hr {
