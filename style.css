@@ -302,7 +302,7 @@ div.volunteer.card > .card-image {
 
 section.volunteers .columns .column:nth-child(even) .card-image {
     /* background-color: rgb(208, 157, 116); */
-    background-color: #c8c8c8;
+    /* background-color: #c8c8c8; */
 }
 
 aside > address {
