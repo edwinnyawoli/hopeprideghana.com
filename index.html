@@ -437,7 +437,8 @@
         </div>
         <hr>
         <div class="columns">
-            <span class="column">Copyright(c) 2021 Hope Pride Ghana. All Rights Reserved</span>
+            <span class="column">Copyright(c) <span id="copyright-year"></span> Hope Pride Ghana. All Rights
+                Reserved</span>
             <div class="column extra-links">
                 <a href="#">Terms of Use</a>
                 <a href="#">Privacy Policy</a>
@@ -453,6 +454,8 @@
         $("#donations > .modal").toggleClass("is-active");
         $("html").toggleClass("is-clipped");
     });
+
+    $("#copyright-year").text(new Date().getFullYear());
 </script>
 
 </html>
